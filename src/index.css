@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Fraunces", Georgia, serif;
+  --color-teal-950: #042f2e;
+  --color-navy-950: #0a1522;
+  --color-navy-900: #10233a;
+  --color-navy-800: #1a324e;
+  --color-stone-100: #f3f1ec;
+  --color-stone-200: #e7e3da;
+}
+
+body {
+  @apply bg-white text-slate-700 antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
